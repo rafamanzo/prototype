@@ -34,4 +34,7 @@ Prototye::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # SSL
+  config.force_ssl = true
 end
