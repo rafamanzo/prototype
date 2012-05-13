@@ -9,7 +9,7 @@ curl -L get.rvm.io | bash -s stable
 source ~/.rvm/scripts/'rvm'
 rvm requirements #INSTALL THE REQUIREMENTS!!!
 rvm pkg install openssl
-rvm install 1.9.3-p125 --with-openssl-dir=$rvm_path/usr
+rvm install 1.9.3-p194 --with-openssl-dir=$rvm_path/usr
 
 rmdir $rvm_path/usr/ssl/certs 								# Ubuntu only
 ln -s /etc/ssl/certs $rvm_path/usr/ssl 						# Ubuntu only
