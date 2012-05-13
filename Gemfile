@@ -22,3 +22,12 @@ gem 'jquery-rails'
 group :devlopment, :test do
   gem "rspec-rails", "~> 2.10"  
 end
+
+group :cucumber do
+  gem 'capybara', '~> 1.1.2'
+  gem 'database_cleaner', '~> 0.7.2'
+  gem 'cucumber-rails', '~> 1.3.0'
+  gem 'cucumber', '~> 1.2.0'
+  gem 'spork', '~> 0.9.1'
+  gem 'launchy', '~> 2.1.0'
+end
