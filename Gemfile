@@ -31,3 +31,7 @@ group :cucumber do
   gem 'spork', '~> 0.9.1'
   gem 'launchy', '~> 2.1.0'
 end
+
+group :test do
+  gem 'simplecov', '~> 0.6.4', :require => false
+end
