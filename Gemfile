@@ -18,3 +18,7 @@ end
 
 gem 'jquery-rails'
 #RoR 3.2.3 dependecies end
+
+group :devlopment, :test do
+  gem "rspec-rails", "~> 2.10"  
+end
