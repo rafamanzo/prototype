@@ -19,10 +19,11 @@ end
 gem 'jquery-rails'
 #RoR 3.2.3 dependecies end
 
-group :devlopment, :test do
+group :development, :test do
   gem "rspec-rails", "~> 2.10"
   gem "shoulda-matchers", "~>1.1.0"
-  gem "factory_girl_rails", "~> 3.3.0"  
+  gem "factory_girl_rails", "~> 3.3.0"
+  gem 'simplecov', '~> 0.6.4', :require => false 
 end
 
 group :cucumber do
@@ -35,7 +36,7 @@ group :cucumber do
 end
 
 group :test do
-  gem 'simplecov', '~> 0.6.4', :require => false
+  #gem 'simplecov', '~> 0.6.4', :require => false
 end
 
 gem 'devise', '~> 2.1.0'
