@@ -21,6 +21,7 @@ gem 'jquery-rails'
 
 group :devlopment, :test do
   gem "rspec-rails", "~> 2.10"
+  gem "shoulda-matchers", "~>1.1.0"
   gem "factory_girl_rails", "~> 3.3.0"  
 end
 
