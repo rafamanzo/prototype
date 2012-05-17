@@ -20,7 +20,8 @@ gem 'jquery-rails'
 #RoR 3.2.3 dependecies end
 
 group :devlopment, :test do
-  gem "rspec-rails", "~> 2.10"  
+  gem "rspec-rails", "~> 2.10"
+  gem "factory_girl_rails", "~> 3.3.0"  
 end
 
 group :cucumber do
@@ -35,3 +36,5 @@ end
 group :test do
   gem 'simplecov', '~> 0.6.4', :require => false
 end
+
+gem 'devise', '~> 2.1.0'
