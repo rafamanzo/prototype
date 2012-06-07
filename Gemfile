@@ -41,3 +41,4 @@ group :test do
 end
 
 gem 'devise', '~> 2.1.0'
+gem 'money-rails', '~> 0.3.1'
