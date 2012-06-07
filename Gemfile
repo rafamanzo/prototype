@@ -37,6 +37,7 @@ end
 
 group :test do
   #gem 'simplecov', '~> 0.6.4', :require => false
+  gem 'rake', '~> 0.9.2.2'
 end
 
 gem 'devise', '~> 2.1.0'
