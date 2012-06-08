@@ -9,4 +9,6 @@ class User < ActiveRecord::Base
   attr_accessible :email, :remember_me, :username
   attr_protected :password, :password_confirmation
   # attr_accessible :title, :body
+  
+  has_many :accounts
 end
