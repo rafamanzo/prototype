@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #RoR dependecies
-gem 'rails', '3.2.13.rc2'
+gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 # Gems used only for assets and not required
@@ -21,7 +21,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem "rspec-rails"
-  gem "shoulda-matchers", '1.4.2'
+  gem "shoulda-matchers"
   gem "factory_girl_rails"
   gem 'simplecov', :require => false
   gem 'rake'
