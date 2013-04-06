@@ -14,9 +14,10 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'rails-boilerplate'
+  gem 'jquery-rails'
+  gem 'modernizr-rails'
 end
-
-gem 'jquery-rails'
 #RoR dependecies end
 
 group :development, :test do
