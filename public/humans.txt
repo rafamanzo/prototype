@@ -7,6 +7,8 @@
 
 # THANKSs
 
+    website template by ARaynorDesign
+
 # TECHNOLOGY COLOPHON
 
     Ruby On Rails 3

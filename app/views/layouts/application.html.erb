@@ -19,7 +19,64 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-    <%= yield %>
+    <div id="main">
+      <div id="header">
+        <div id="banner">
+          <div id="welcome">
+            <h1>Prototype</h1>
+          </div><!--close welcome-->
+          <div id="welcome_slogan">
+            <h1>Prototype</h1>
+          </div><!--close welcome_slogan-->
+        </div><!--close banner-->
+      </div><!--close header-->
+
+      <div id="menubar">
+        <ul id="menu">
+          <li class="current"><%= link_to 'Home', root_url %></li>
+        </ul>
+      </div><!--close menubar-->
+
+      <div id="site_content">
+        <div class="sidebar_container">
+        </div><!--close sidebar_container-->
+
+        <div id="content">
+          <%= yield %>
+        </div><!--close content-->
+      </div><!--close site_content-->
+
+      <div id="content_grey">
+        <div class="content_grey_container_box">
+          <h4>Why this site is secure?</h4>
+          <p>All the communications are encrypted</p>
+          <div class="readmore">
+            <a href="#">Read more</a>
+          </div><!--close readmore-->
+        </div><!--close content_grey_container_box-->
+
+        <div class="content_grey_container_box">
+          <h4>Also, it's free software</h4>
+          <p>You're free to copy anything here</p>
+          <div class="readmore">
+            <a href="#">Read more</a>
+          </div><!--close readmore-->
+        </div><!--close content_grey_container_box-->
+
+        <div class="content_grey_container_box">
+          <h4>Give me a tip</h4>
+          <p>Please, help me to keep up with the site without ads</p>
+          <div class="readmore">
+            <a href="#">Read more</a>
+          </div><!--close readmore-->
+        </div><!--close content_grey_container_box-->
+      </div><!--close content_grey-->
+
+    </div><!--close main-->
+
+    <div id="footer">
+      development by Rafael Reggiani Manzo | website template by <%= link_to 'ARaynorDesign', 'http://www.araynordesign.co.uk', :target => "_blank" %>
+    </div><!--close footer-->
 
     <%= javascript_include_tag "application" %>
   </body>

@@ -10,6 +10,7 @@
  *
  *= boilerplate/main.css
  *= boilerplate/normalize.css
+ *= layout.css
  *= require_self
  *= require_tree .
 */
